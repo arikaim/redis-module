@@ -1,0 +1,17 @@
+{
+    "title": "Redis",
+    "name": "redis",
+    "version": "1.0.0",
+    "package-type": "module",
+    "class": "Redis",
+    "description": "Redis client",
+    "type": "package",
+    "category": "captcha",
+    "repository": "https://github.com/arikaim/redis-module.git",
+    "require": {
+        "composer": [
+            "predis/predis"
+        ]
+    },
+    "help": "https://github.com/predis/predis"      
+}

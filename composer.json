@@ -1,0 +1,20 @@
+{
+    "name": "arikaim/redis-module",
+    "description": "Arikam CMS Redis module",
+    "keywords": ["Module", "Arikaim CMS Redis module"],
+    "type": "arikaim-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Konstantin Atanasov",
+        "email": "info@arikaim.com",
+        "homepage": "http://arikaim.com"
+    }],
+    "require": {
+        "php": ">=7.2",
+        "arikaim/installer": "*",
+        "predis/predis": "^1.1.9"
+    },
+    "extra": {
+        "path": "redis"
+    }
+}
